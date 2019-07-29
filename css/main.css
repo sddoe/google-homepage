@@ -1,0 +1,81 @@
+body {
+    font-family: Arial, sans-serif;
+    font-size: small;
+}
+.logo {
+    position: absolute;
+    text-align: center;
+    left: 50%;
+    top: 40%;
+    transform: translate(-50%, -50%);
+}
+.search-bar {
+    height: 40px;
+    left: 50%;
+    position: absolute;
+    text-align: center;
+    top: 55%;
+    transform: translate(-50%, -50%);
+    width: 40%;
+}
+.box {
+    border-radius: 25px;
+    height: 100%;
+    width: 100%;
+}
+.clicker {
+    border-radius: 5px;
+    border-style: none;
+    color: #888;
+    height: 40px;
+    width: 150px;
+    margin: 40px 10px 0px;
+    display: inline-block;
+    align-items: flex-start;
+}
+.clicker:hover {
+    background-color: #eee;
+    border-style: solid;
+    border-color: #ccc;
+    color: #444;
+}
+.container {
+    display: flex;
+    padding: none;
+    list-style: none;
+    margin: 20px 0;
+}
+.container a {
+    margin: 0 20px;
+    text-decoration: none;
+    color: #000;
+}
+.How-search-works {
+    margin-left: auto;
+}
+.gmail {
+    margin-left: auto;
+}
+.sign-in {
+    background-color: #2176ff;
+    line-height: 28px;
+    margin-right: 25px;
+    margin-top: -4px;
+}
+.sign-in a {
+    color: #fff;
+    font-weight: bold;
+}
+.footer-nav {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background-color: #eee;
+}
+.footer-nav .container li a {
+    color: #888;
+}
+a:hover {
+    text-decoration: underline;
+}
